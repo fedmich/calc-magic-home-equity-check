@@ -1,0 +1,103 @@
+body{
+	background-color: #F3E6F7;
+	font-family: Arial;
+}
+
+.app{
+	margin:auto;
+	
+	margin-top:50px;
+	
+	width: 550px;
+	max-width: 90%;
+}
+.head_top{
+	text-align:center;
+}
+.head_top img{
+	max-width: 98%;
+}
+
+.foot_result{
+	text-align:center;
+}
+.foot_result img{
+	max-width: 100%;
+	z-index: 1;
+}
+.foot_result .result_box{
+	position: relative;
+}
+
+.foot_result .result {
+    position: absolute;
+    top: 110px;
+    left: 180px;
+    z-index: 90;
+    color: green;
+    font-size: 22px;
+}
+
+.app_calculator .row-boxes{
+	background-image: url(bg-boxes.png);
+	
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: center top;
+ 
+	min-height: 240px;
+}
+.app_calculator .row-first{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+	
+
+.msg_1 p{
+	text-align: justify;
+	font-size: 18px;
+	line-height: 20px;
+}
+.disclaimer p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.foot_1 p{
+	text-align: justify;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.clear{
+	clear: both;
+}
+.col-label{
+	float:left;
+}
+.col-label h5{
+	margin: 0px;
+	
+	
+	margin-right: 10px;
+	margin-left: 20px;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	line-height: 20px;
+	font-size: 20px;
+}
+.col-input{
+	float:right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	margin-right: 30px;
+	margin-left: 10px;
+}
+.col-input input{
+	text-align:right;
+	width: 130px;
+	max-width: 100%;
+	font-size: 20px;
+}
